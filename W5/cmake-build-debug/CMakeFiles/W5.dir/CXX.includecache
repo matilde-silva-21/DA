@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/W5/main.cpp
+iostream
+-
+list
+C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/W5/list
+string
+C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/W5/string
+queue
+C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/W5/queue
+limits
+-
+algorithm
+-
+vector
+-
+
