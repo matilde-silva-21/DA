@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame\cmak
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/TP2.dir/all
+all: CMakeFiles/TP3.dir/all
 all: lib/googletest-master/all
 .PHONY : all
 
@@ -71,7 +71,7 @@ preinstall: lib/googletest-master/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/TP2.dir/clean
+clean: CMakeFiles/TP3.dir/clean
 clean: lib/googletest-master/clean
 .PHONY : clean
 
@@ -127,33 +127,33 @@ lib/googletest-master/googletest/clean: lib/googletest-master/googletest/CMakeFi
 .PHONY : lib/googletest-master/googletest/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/TP2.dir
+# Target rules for target CMakeFiles/TP3.dir
 
 # All Build rule for target.
-CMakeFiles/TP2.dir/all: lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/all
-CMakeFiles/TP2.dir/all: lib/googletest-master/googletest/CMakeFiles/gtest.dir/all
-CMakeFiles/TP2.dir/all: lib/googletest-master/googletest/CMakeFiles/gtest_main.dir/all
-CMakeFiles/TP2.dir/all: lib/googletest-master/googlemock/CMakeFiles/gmock.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP2.dir\build.make CMakeFiles/TP2.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP2.dir\build.make CMakeFiles/TP2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target TP2"
-.PHONY : CMakeFiles/TP2.dir/all
+CMakeFiles/TP3.dir/all: lib/googletest-master/googletest/CMakeFiles/gtest_main.dir/all
+CMakeFiles/TP3.dir/all: lib/googletest-master/googletest/CMakeFiles/gtest.dir/all
+CMakeFiles/TP3.dir/all: lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/all
+CMakeFiles/TP3.dir/all: lib/googletest-master/googlemock/CMakeFiles/gmock.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target TP3"
+.PHONY : CMakeFiles/TP3.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/TP2.dir/rule: cmake_check_build_system
+CMakeFiles/TP3.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame\cmake-build-debug\CMakeFiles 16
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/TP2.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/TP3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/TP2.dir/rule
+.PHONY : CMakeFiles/TP3.dir/rule
 
 # Convenience name for target.
-TP2: CMakeFiles/TP2.dir/rule
-.PHONY : TP2
+TP3: CMakeFiles/TP3.dir/rule
+.PHONY : TP3
 
 # clean rule for target.
-CMakeFiles/TP2.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP2.dir\build.make CMakeFiles/TP2.dir/clean
-.PHONY : CMakeFiles/TP2.dir/clean
+CMakeFiles/TP3.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/clean
+.PHONY : CMakeFiles/TP3.dir/clean
 
 #=============================================================================
 # Target rules for target lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir

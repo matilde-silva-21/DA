@@ -37,7 +37,26 @@ bool Sudoku::isComplete() const {
 }
 
 bool Sudoku::solve() {
-    //TODO
+    int **copy = getNumbers();
+    if(isComplete()) return true;
+
+    for(int i=0; i<9; i++){
+        for(int j=0; j<9; j++){
+            if(copy[i][j]==0){
+                for(int n=1; n<10; n++){
+                    if(accepts(i,j,n)){
+                        place(i,j,n);
+                        if(!solve()){
+                            clear(i,j);
+                        }
+                        else return true;
+                    }
+                }
+            }
+        }
+        //if(!lineIsComplete(i)){return false;}
+    }
+
     return false;
 }
 
@@ -71,8 +90,8 @@ void Sudoku::print() const {
 }
 
 bool Sudoku::accepts(int i, int j, int n) {
-	//TODO
-    return false;
+    if(lineHasNumber[i][n] || columnHasNumber[j][n] || block3x3HasNumber[i / 3][j / 3][n]) return false;
+    return true;
 }
 
 void Sudoku::place(int i, int j, int n) {
@@ -103,6 +122,13 @@ void Sudoku::clear() {
         for (int j = 0; j < 9; j++)
             if (numbers[i][j] != 0)
                 clear(i, j);
+}
+
+bool Sudoku::lineIsComplete(int line) {
+    for(int i=1; i<10; i++){
+        if(!lineHasNumber[line][i]){return false;}
+    }
+    return true;
 }
 
 /// TESTS ///

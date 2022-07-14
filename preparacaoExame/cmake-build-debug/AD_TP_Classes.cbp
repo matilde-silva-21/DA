@@ -17,18 +17,18 @@
 					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="install/strip">
+			<Target title="list_install_components">
 				<Option working_dir="C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
 					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="TP2">
-				<Option output="C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/cmake-build-debug/TP2.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="TP3">
+				<Option output="C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/cmake-build-debug/TP3.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -47,14 +47,14 @@
 					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/cmake-build-debug/Makefile&quot;  VERBOSE=1 TP2"/>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/cmake-build-debug/Makefile&quot;  VERBOSE=1 TP3"/>
 					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="TP2/fast">
-				<Option output="C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/cmake-build-debug/TP2.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="TP3/fast">
+				<Option output="C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/cmake-build-debug/TP3.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -73,7 +73,7 @@
 					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/cmake-build-debug/Makefile&quot;  VERBOSE=1 TP2/fast"/>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/cmake-build-debug/Makefile&quot;  VERBOSE=1 TP3/fast"/>
 					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -119,11 +119,11 @@
 					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="list_install_components">
+			<Target title="install/strip">
 				<Option working_dir="C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
 					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -330,23 +330,23 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/TP2/TP2a/ex1.cpp">
-			<Option target="TP2"/>
+		<Unit filename="C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/TP3/TP3a/ex1.cpp">
+			<Option target="TP3"/>
 		</Unit>
-		<Unit filename="C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/TP2/TP2a/ex2.cpp">
-			<Option target="TP2"/>
+		<Unit filename="C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/TP3/TP3a/ex2.cpp">
+			<Option target="TP3"/>
 		</Unit>
-		<Unit filename="C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/TP2/TP2a/ex3.cpp">
-			<Option target="TP2"/>
+		<Unit filename="C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/TP3/TP3a/ex3.cpp">
+			<Option target="TP3"/>
 		</Unit>
-		<Unit filename="C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/TP2/TP2a/ex4.cpp">
-			<Option target="TP2"/>
+		<Unit filename="C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/TP3/TP3a/ex4.cpp">
+			<Option target="TP3"/>
 		</Unit>
-		<Unit filename="C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/TP2/TP2b/ex1.cpp">
-			<Option target="TP2"/>
+		<Unit filename="C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/TP3/TP3a/ex5.cpp">
+			<Option target="TP3"/>
 		</Unit>
-		<Unit filename="C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/TP2/TP2b/ex2.cpp">
-			<Option target="TP2"/>
+		<Unit filename="C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/TP3/TP3a/ex6.cpp">
+			<Option target="TP3"/>
 		</Unit>
 		<Unit filename="C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/lib/googletest-master/googlemock/src/gmock-all.cc">
 			<Option target="gmock"/>
@@ -361,7 +361,7 @@
 			<Option target="gtest_main"/>
 		</Unit>
 		<Unit filename="C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/main.cpp">
-			<Option target="TP2"/>
+			<Option target="TP3"/>
 		</Unit>
 		<Unit filename="C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

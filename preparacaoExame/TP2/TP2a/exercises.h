@@ -106,6 +106,11 @@ private:
      */
     void clear();
 	//TODO: Add other methods if needed
+
+    bool lineIsComplete(int line);
+
+    bool rowIsComplete(int row);
+
 };
 
 // Ex 3

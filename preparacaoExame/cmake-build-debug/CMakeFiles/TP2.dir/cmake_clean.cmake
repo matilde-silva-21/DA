@@ -1,8 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/TP2.dir/TP2/TP2a/ex1.cpp.obj"
-  "CMakeFiles/TP2.dir/TP2/TP2a/ex2.cpp.obj"
-  "CMakeFiles/TP2.dir/TP2/TP2a/ex3.cpp.obj"
-  "CMakeFiles/TP2.dir/TP2/TP2a/ex4.cpp.obj"
   "CMakeFiles/TP2.dir/TP2/TP2b/ex1.cpp.obj"
   "CMakeFiles/TP2.dir/TP2/TP2b/ex2.cpp.obj"
   "CMakeFiles/TP2.dir/main.cpp.obj"

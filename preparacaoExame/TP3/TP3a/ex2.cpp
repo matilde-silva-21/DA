@@ -1,8 +1,45 @@
 #include "exercises.h"
 
 bool changeMakingUnlimitedDP(unsigned int C[], unsigned int n, unsigned int T, unsigned int usedCoins[]) {
-    // TODO
-	return false;
+    unsigned int bestChange[T+1];
+    int lastChangeIteration[T+1];
+    for(int i = 0; i < n; i++){
+        usedCoins[i]=0;
+    }
+    for(int i=0; i<=T; i++){
+        bestChange[i]=UINT16_MAX;
+        lastChangeIteration[i]=-1;
+    }
+    for(int curCoinIndex = 0; curCoinIndex < n; curCoinIndex++){
+        for(int curChange=C[curCoinIndex]; curChange<=T; curChange++){
+            int copyChange=curChange, copyIndex=curCoinIndex, coinCount=0;
+            while(copyChange!=0){
+                if(copyChange >= C[copyIndex]){
+                    int divInteira = (copyChange-(copyChange%C[copyIndex]));
+                    copyChange -= divInteira;
+                    coinCount+= divInteira/C[copyIndex];
+                }
+                else copyIndex--;
+                if(copyIndex < 0){
+                    return false;
+                }
+            }
+            if(coinCount < bestChange[curChange]){
+                bestChange[curChange] = coinCount;
+                lastChangeIteration[curChange] = curCoinIndex;
+            }
+        }
+
+    }
+
+    if(lastChangeIteration[T]==-1) return false;
+
+    while(T!=0){
+        int coinIndex = lastChangeIteration[T], divInteira = (T-(T%C[coinIndex]));
+        T-=divInteira;
+        usedCoins[coinIndex]+=divInteira/C[coinIndex];
+    }
+    return true;
 }
 
 
