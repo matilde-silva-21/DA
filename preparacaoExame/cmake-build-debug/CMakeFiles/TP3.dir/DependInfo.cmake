@@ -8,12 +8,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/TP3/TP3a/ex1.cpp" "C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/cmake-build-debug/CMakeFiles/TP3.dir/TP3/TP3a/ex1.cpp.obj"
-  "C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/TP3/TP3a/ex2.cpp" "C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/cmake-build-debug/CMakeFiles/TP3.dir/TP3/TP3a/ex2.cpp.obj"
-  "C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/TP3/TP3a/ex3.cpp" "C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/cmake-build-debug/CMakeFiles/TP3.dir/TP3/TP3a/ex3.cpp.obj"
-  "C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/TP3/TP3a/ex4.cpp" "C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/cmake-build-debug/CMakeFiles/TP3.dir/TP3/TP3a/ex4.cpp.obj"
-  "C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/TP3/TP3a/ex5.cpp" "C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/cmake-build-debug/CMakeFiles/TP3.dir/TP3/TP3a/ex5.cpp.obj"
-  "C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/TP3/TP3a/ex6.cpp" "C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/cmake-build-debug/CMakeFiles/TP3.dir/TP3/TP3a/ex6.cpp.obj"
   "C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/main.cpp" "C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/cmake-build-debug/CMakeFiles/TP3.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

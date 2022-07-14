@@ -64,15 +64,6 @@ CMAKE_BINARY_DIR = C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame\cmak
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-.PHONY : list_install_components/fast
-
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
@@ -116,6 +107,15 @@ rebuild_cache:
 # Special rule for the target rebuild_cache
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+.PHONY : list_install_components/fast
 
 # Special rule for the target install/strip
 install/strip: preinstall
@@ -162,17 +162,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named TP3
+# Target rules for targets named TP1
 
 # Build rule for target.
-TP3: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 TP3
-.PHONY : TP3
+TP1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 TP1
+.PHONY : TP1
 
 # fast build rule for target.
-TP3/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/build
-.PHONY : TP3/fast
+TP1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP1.dir\build.make CMakeFiles/TP1.dir/build
+.PHONY : TP1/fast
 
 #=============================================================================
 # Target rules for targets named gmock_main
@@ -226,156 +226,180 @@ gtest_main/fast:
 	$(MAKE) $(MAKESILENT) -f lib\googletest-master\googletest\CMakeFiles\gtest_main.dir\build.make lib/googletest-master/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
-TP3/TP3a/ex1.obj: TP3/TP3a/ex1.cpp.obj
-.PHONY : TP3/TP3a/ex1.obj
+TP1/ex1.obj: TP1/ex1.cpp.obj
+.PHONY : TP1/ex1.obj
 
 # target to build an object file
-TP3/TP3a/ex1.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/TP3/TP3a/ex1.cpp.obj
-.PHONY : TP3/TP3a/ex1.cpp.obj
+TP1/ex1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP1.dir\build.make CMakeFiles/TP1.dir/TP1/ex1.cpp.obj
+.PHONY : TP1/ex1.cpp.obj
 
-TP3/TP3a/ex1.i: TP3/TP3a/ex1.cpp.i
-.PHONY : TP3/TP3a/ex1.i
+TP1/ex1.i: TP1/ex1.cpp.i
+.PHONY : TP1/ex1.i
 
 # target to preprocess a source file
-TP3/TP3a/ex1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/TP3/TP3a/ex1.cpp.i
-.PHONY : TP3/TP3a/ex1.cpp.i
+TP1/ex1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP1.dir\build.make CMakeFiles/TP1.dir/TP1/ex1.cpp.i
+.PHONY : TP1/ex1.cpp.i
 
-TP3/TP3a/ex1.s: TP3/TP3a/ex1.cpp.s
-.PHONY : TP3/TP3a/ex1.s
+TP1/ex1.s: TP1/ex1.cpp.s
+.PHONY : TP1/ex1.s
 
 # target to generate assembly for a file
-TP3/TP3a/ex1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/TP3/TP3a/ex1.cpp.s
-.PHONY : TP3/TP3a/ex1.cpp.s
+TP1/ex1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP1.dir\build.make CMakeFiles/TP1.dir/TP1/ex1.cpp.s
+.PHONY : TP1/ex1.cpp.s
 
-TP3/TP3a/ex2.obj: TP3/TP3a/ex2.cpp.obj
-.PHONY : TP3/TP3a/ex2.obj
+TP1/ex2.obj: TP1/ex2.cpp.obj
+.PHONY : TP1/ex2.obj
 
 # target to build an object file
-TP3/TP3a/ex2.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/TP3/TP3a/ex2.cpp.obj
-.PHONY : TP3/TP3a/ex2.cpp.obj
+TP1/ex2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP1.dir\build.make CMakeFiles/TP1.dir/TP1/ex2.cpp.obj
+.PHONY : TP1/ex2.cpp.obj
 
-TP3/TP3a/ex2.i: TP3/TP3a/ex2.cpp.i
-.PHONY : TP3/TP3a/ex2.i
+TP1/ex2.i: TP1/ex2.cpp.i
+.PHONY : TP1/ex2.i
 
 # target to preprocess a source file
-TP3/TP3a/ex2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/TP3/TP3a/ex2.cpp.i
-.PHONY : TP3/TP3a/ex2.cpp.i
+TP1/ex2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP1.dir\build.make CMakeFiles/TP1.dir/TP1/ex2.cpp.i
+.PHONY : TP1/ex2.cpp.i
 
-TP3/TP3a/ex2.s: TP3/TP3a/ex2.cpp.s
-.PHONY : TP3/TP3a/ex2.s
+TP1/ex2.s: TP1/ex2.cpp.s
+.PHONY : TP1/ex2.s
 
 # target to generate assembly for a file
-TP3/TP3a/ex2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/TP3/TP3a/ex2.cpp.s
-.PHONY : TP3/TP3a/ex2.cpp.s
+TP1/ex2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP1.dir\build.make CMakeFiles/TP1.dir/TP1/ex2.cpp.s
+.PHONY : TP1/ex2.cpp.s
 
-TP3/TP3a/ex3.obj: TP3/TP3a/ex3.cpp.obj
-.PHONY : TP3/TP3a/ex3.obj
+TP1/ex3.obj: TP1/ex3.cpp.obj
+.PHONY : TP1/ex3.obj
 
 # target to build an object file
-TP3/TP3a/ex3.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/TP3/TP3a/ex3.cpp.obj
-.PHONY : TP3/TP3a/ex3.cpp.obj
+TP1/ex3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP1.dir\build.make CMakeFiles/TP1.dir/TP1/ex3.cpp.obj
+.PHONY : TP1/ex3.cpp.obj
 
-TP3/TP3a/ex3.i: TP3/TP3a/ex3.cpp.i
-.PHONY : TP3/TP3a/ex3.i
+TP1/ex3.i: TP1/ex3.cpp.i
+.PHONY : TP1/ex3.i
 
 # target to preprocess a source file
-TP3/TP3a/ex3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/TP3/TP3a/ex3.cpp.i
-.PHONY : TP3/TP3a/ex3.cpp.i
+TP1/ex3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP1.dir\build.make CMakeFiles/TP1.dir/TP1/ex3.cpp.i
+.PHONY : TP1/ex3.cpp.i
 
-TP3/TP3a/ex3.s: TP3/TP3a/ex3.cpp.s
-.PHONY : TP3/TP3a/ex3.s
+TP1/ex3.s: TP1/ex3.cpp.s
+.PHONY : TP1/ex3.s
 
 # target to generate assembly for a file
-TP3/TP3a/ex3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/TP3/TP3a/ex3.cpp.s
-.PHONY : TP3/TP3a/ex3.cpp.s
+TP1/ex3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP1.dir\build.make CMakeFiles/TP1.dir/TP1/ex3.cpp.s
+.PHONY : TP1/ex3.cpp.s
 
-TP3/TP3a/ex4.obj: TP3/TP3a/ex4.cpp.obj
-.PHONY : TP3/TP3a/ex4.obj
+TP1/ex4.obj: TP1/ex4.cpp.obj
+.PHONY : TP1/ex4.obj
 
 # target to build an object file
-TP3/TP3a/ex4.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/TP3/TP3a/ex4.cpp.obj
-.PHONY : TP3/TP3a/ex4.cpp.obj
+TP1/ex4.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP1.dir\build.make CMakeFiles/TP1.dir/TP1/ex4.cpp.obj
+.PHONY : TP1/ex4.cpp.obj
 
-TP3/TP3a/ex4.i: TP3/TP3a/ex4.cpp.i
-.PHONY : TP3/TP3a/ex4.i
+TP1/ex4.i: TP1/ex4.cpp.i
+.PHONY : TP1/ex4.i
 
 # target to preprocess a source file
-TP3/TP3a/ex4.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/TP3/TP3a/ex4.cpp.i
-.PHONY : TP3/TP3a/ex4.cpp.i
+TP1/ex4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP1.dir\build.make CMakeFiles/TP1.dir/TP1/ex4.cpp.i
+.PHONY : TP1/ex4.cpp.i
 
-TP3/TP3a/ex4.s: TP3/TP3a/ex4.cpp.s
-.PHONY : TP3/TP3a/ex4.s
+TP1/ex4.s: TP1/ex4.cpp.s
+.PHONY : TP1/ex4.s
 
 # target to generate assembly for a file
-TP3/TP3a/ex4.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/TP3/TP3a/ex4.cpp.s
-.PHONY : TP3/TP3a/ex4.cpp.s
+TP1/ex4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP1.dir\build.make CMakeFiles/TP1.dir/TP1/ex4.cpp.s
+.PHONY : TP1/ex4.cpp.s
 
-TP3/TP3a/ex5.obj: TP3/TP3a/ex5.cpp.obj
-.PHONY : TP3/TP3a/ex5.obj
+TP1/ex5.obj: TP1/ex5.cpp.obj
+.PHONY : TP1/ex5.obj
 
 # target to build an object file
-TP3/TP3a/ex5.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/TP3/TP3a/ex5.cpp.obj
-.PHONY : TP3/TP3a/ex5.cpp.obj
+TP1/ex5.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP1.dir\build.make CMakeFiles/TP1.dir/TP1/ex5.cpp.obj
+.PHONY : TP1/ex5.cpp.obj
 
-TP3/TP3a/ex5.i: TP3/TP3a/ex5.cpp.i
-.PHONY : TP3/TP3a/ex5.i
+TP1/ex5.i: TP1/ex5.cpp.i
+.PHONY : TP1/ex5.i
 
 # target to preprocess a source file
-TP3/TP3a/ex5.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/TP3/TP3a/ex5.cpp.i
-.PHONY : TP3/TP3a/ex5.cpp.i
+TP1/ex5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP1.dir\build.make CMakeFiles/TP1.dir/TP1/ex5.cpp.i
+.PHONY : TP1/ex5.cpp.i
 
-TP3/TP3a/ex5.s: TP3/TP3a/ex5.cpp.s
-.PHONY : TP3/TP3a/ex5.s
+TP1/ex5.s: TP1/ex5.cpp.s
+.PHONY : TP1/ex5.s
 
 # target to generate assembly for a file
-TP3/TP3a/ex5.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/TP3/TP3a/ex5.cpp.s
-.PHONY : TP3/TP3a/ex5.cpp.s
+TP1/ex5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP1.dir\build.make CMakeFiles/TP1.dir/TP1/ex5.cpp.s
+.PHONY : TP1/ex5.cpp.s
 
-TP3/TP3a/ex6.obj: TP3/TP3a/ex6.cpp.obj
-.PHONY : TP3/TP3a/ex6.obj
+TP1/ex6.obj: TP1/ex6.cpp.obj
+.PHONY : TP1/ex6.obj
 
 # target to build an object file
-TP3/TP3a/ex6.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/TP3/TP3a/ex6.cpp.obj
-.PHONY : TP3/TP3a/ex6.cpp.obj
+TP1/ex6.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP1.dir\build.make CMakeFiles/TP1.dir/TP1/ex6.cpp.obj
+.PHONY : TP1/ex6.cpp.obj
 
-TP3/TP3a/ex6.i: TP3/TP3a/ex6.cpp.i
-.PHONY : TP3/TP3a/ex6.i
+TP1/ex6.i: TP1/ex6.cpp.i
+.PHONY : TP1/ex6.i
 
 # target to preprocess a source file
-TP3/TP3a/ex6.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/TP3/TP3a/ex6.cpp.i
-.PHONY : TP3/TP3a/ex6.cpp.i
+TP1/ex6.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP1.dir\build.make CMakeFiles/TP1.dir/TP1/ex6.cpp.i
+.PHONY : TP1/ex6.cpp.i
 
-TP3/TP3a/ex6.s: TP3/TP3a/ex6.cpp.s
-.PHONY : TP3/TP3a/ex6.s
+TP1/ex6.s: TP1/ex6.cpp.s
+.PHONY : TP1/ex6.s
 
 # target to generate assembly for a file
-TP3/TP3a/ex6.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/TP3/TP3a/ex6.cpp.s
-.PHONY : TP3/TP3a/ex6.cpp.s
+TP1/ex6.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP1.dir\build.make CMakeFiles/TP1.dir/TP1/ex6.cpp.s
+.PHONY : TP1/ex6.cpp.s
+
+TP1/ex7.obj: TP1/ex7.cpp.obj
+.PHONY : TP1/ex7.obj
+
+# target to build an object file
+TP1/ex7.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP1.dir\build.make CMakeFiles/TP1.dir/TP1/ex7.cpp.obj
+.PHONY : TP1/ex7.cpp.obj
+
+TP1/ex7.i: TP1/ex7.cpp.i
+.PHONY : TP1/ex7.i
+
+# target to preprocess a source file
+TP1/ex7.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP1.dir\build.make CMakeFiles/TP1.dir/TP1/ex7.cpp.i
+.PHONY : TP1/ex7.cpp.i
+
+TP1/ex7.s: TP1/ex7.cpp.s
+.PHONY : TP1/ex7.s
+
+# target to generate assembly for a file
+TP1/ex7.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP1.dir\build.make CMakeFiles/TP1.dir/TP1/ex7.cpp.s
+.PHONY : TP1/ex7.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP1.dir\build.make CMakeFiles/TP1.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -383,7 +407,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP1.dir\build.make CMakeFiles/TP1.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -391,7 +415,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP1.dir\build.make CMakeFiles/TP1.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -406,29 +430,32 @@ help:
 	@echo ... install/strip
 	@echo ... list_install_components
 	@echo ... rebuild_cache
-	@echo ... TP3
+	@echo ... TP1
 	@echo ... gmock
 	@echo ... gmock_main
 	@echo ... gtest
 	@echo ... gtest_main
-	@echo ... TP3/TP3a/ex1.obj
-	@echo ... TP3/TP3a/ex1.i
-	@echo ... TP3/TP3a/ex1.s
-	@echo ... TP3/TP3a/ex2.obj
-	@echo ... TP3/TP3a/ex2.i
-	@echo ... TP3/TP3a/ex2.s
-	@echo ... TP3/TP3a/ex3.obj
-	@echo ... TP3/TP3a/ex3.i
-	@echo ... TP3/TP3a/ex3.s
-	@echo ... TP3/TP3a/ex4.obj
-	@echo ... TP3/TP3a/ex4.i
-	@echo ... TP3/TP3a/ex4.s
-	@echo ... TP3/TP3a/ex5.obj
-	@echo ... TP3/TP3a/ex5.i
-	@echo ... TP3/TP3a/ex5.s
-	@echo ... TP3/TP3a/ex6.obj
-	@echo ... TP3/TP3a/ex6.i
-	@echo ... TP3/TP3a/ex6.s
+	@echo ... TP1/ex1.obj
+	@echo ... TP1/ex1.i
+	@echo ... TP1/ex1.s
+	@echo ... TP1/ex2.obj
+	@echo ... TP1/ex2.i
+	@echo ... TP1/ex2.s
+	@echo ... TP1/ex3.obj
+	@echo ... TP1/ex3.i
+	@echo ... TP1/ex3.s
+	@echo ... TP1/ex4.obj
+	@echo ... TP1/ex4.i
+	@echo ... TP1/ex4.s
+	@echo ... TP1/ex5.obj
+	@echo ... TP1/ex5.i
+	@echo ... TP1/ex5.s
+	@echo ... TP1/ex6.obj
+	@echo ... TP1/ex6.i
+	@echo ... TP1/ex6.s
+	@echo ... TP1/ex7.obj
+	@echo ... TP1/ex7.i
+	@echo ... TP1/ex7.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

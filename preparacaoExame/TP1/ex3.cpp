@@ -40,16 +40,12 @@ bool changeMakingBF(unsigned int C[], unsigned int Stock[], unsigned int n, unsi
     }
 
     else{
-        for(int i=0; i<n; i++){
+        for(int i=n-1; i>-1; i--){
             if(Stock[i]==0 || T<C[i]) {continue;}
             Stock[i]--;
             usedCoins[i]++;
             if(changeMakingBF(C,Stock,n,T-C[i], usedCoins)){
-                int size = getNumberOfCoins(usedCoins,n);
-                if(size<curBestSize){
-                    copyArray(usedCoins, curBestAnswer,n);
-                    curBestSize=size;
-                }
+                return true;
             }
             copyArray(st, Stock, n);
             copyArray(uc, usedCoins, n);
