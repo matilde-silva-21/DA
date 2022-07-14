@@ -18,8 +18,17 @@ void  Labyrinth::print() const {
 }
 
 bool Labyrinth::findGoal(int x, int y) {
-    //TODO
-    return false;
+    static bool first = true;
+    if(first){
+        initializeVisited();
+        first=false;
+    }
+    if(labyrinth[x][y]==2){return true;}
+    else if(labyrinth[x][y]==0 || visited[x][y]){return false;}
+    else{
+        visited[x][y]=true;
+        return findGoal(x-1,y) || findGoal(x, y-1) || findGoal(x+1,y) || findGoal(x,y+1);
+    }
 }
 
 void Labyrinth::initializeVisited() {

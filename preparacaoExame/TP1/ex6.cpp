@@ -11,10 +11,30 @@ bool Activity::operator<(const Activity &a2) const {
     return finish < a2.finish;
 }
 
-std::vector<Activity> earliestFinishScheduling(std::vector<Activity> A) {
-    //TODO...
+unsigned int findEarliestFinish(std::vector<Activity> A){
+    unsigned int curMin=A[0].finish, curIndex=0;
+    for(int i=0; i<A.size(); i++){
+        if(curMin>A[i].finish){
+            curMin=A[i].finish;
+            curIndex=i;
+        }
+    }
+    return curIndex;
+}
 
+bool scheduleConflict(std::vector<Activity> A, Activity act){
+    for(auto i: A){
+        if(act.start>i.start && act.finish<i.finish){return false;}
+    }
+}
+std::vector<Activity> earliestFinishScheduling(std::vector<Activity> A) {
     std::vector<Activity> res;
+
+    while(res.empty()){
+        unsigned int index = findEarliestFinish(A);
+        res.push_back(A[index]);
+    }
+
 
     return res;
 }
