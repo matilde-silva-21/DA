@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\DA_TP_Classes
+CMAKE_SOURCE_DIR = C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\DA_TP_Classes\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/TP1.dir/depend.make
@@ -68,114 +68,114 @@ include CMakeFiles/TP1.dir/flags.make
 CMakeFiles/TP1.dir/main.cpp.obj: CMakeFiles/TP1.dir/flags.make
 CMakeFiles/TP1.dir/main.cpp.obj: CMakeFiles/TP1.dir/includes_CXX.rsp
 CMakeFiles/TP1.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\DA_TP_Classes\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TP1.dir/main.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TP1.dir\main.cpp.obj -c C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\DA_TP_Classes\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TP1.dir/main.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TP1.dir\main.cpp.obj -c C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame\main.cpp
 
 CMakeFiles/TP1.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP1.dir/main.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\DA_TP_Classes\main.cpp > CMakeFiles\TP1.dir\main.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame\main.cpp > CMakeFiles\TP1.dir\main.cpp.i
 
 CMakeFiles/TP1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP1.dir/main.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\DA_TP_Classes\main.cpp -o CMakeFiles\TP1.dir\main.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame\main.cpp -o CMakeFiles\TP1.dir\main.cpp.s
 
 CMakeFiles/TP1.dir/TP1/ex1.cpp.obj: CMakeFiles/TP1.dir/flags.make
 CMakeFiles/TP1.dir/TP1/ex1.cpp.obj: CMakeFiles/TP1.dir/includes_CXX.rsp
 CMakeFiles/TP1.dir/TP1/ex1.cpp.obj: ../TP1/ex1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\DA_TP_Classes\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TP1.dir/TP1/ex1.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TP1.dir\TP1\ex1.cpp.obj -c C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\DA_TP_Classes\TP1\ex1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TP1.dir/TP1/ex1.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TP1.dir\TP1\ex1.cpp.obj -c C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame\TP1\ex1.cpp
 
 CMakeFiles/TP1.dir/TP1/ex1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP1.dir/TP1/ex1.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\DA_TP_Classes\TP1\ex1.cpp > CMakeFiles\TP1.dir\TP1\ex1.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame\TP1\ex1.cpp > CMakeFiles\TP1.dir\TP1\ex1.cpp.i
 
 CMakeFiles/TP1.dir/TP1/ex1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP1.dir/TP1/ex1.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\DA_TP_Classes\TP1\ex1.cpp -o CMakeFiles\TP1.dir\TP1\ex1.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame\TP1\ex1.cpp -o CMakeFiles\TP1.dir\TP1\ex1.cpp.s
 
 CMakeFiles/TP1.dir/TP1/ex2.cpp.obj: CMakeFiles/TP1.dir/flags.make
 CMakeFiles/TP1.dir/TP1/ex2.cpp.obj: CMakeFiles/TP1.dir/includes_CXX.rsp
 CMakeFiles/TP1.dir/TP1/ex2.cpp.obj: ../TP1/ex2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\DA_TP_Classes\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TP1.dir/TP1/ex2.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TP1.dir\TP1\ex2.cpp.obj -c C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\DA_TP_Classes\TP1\ex2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TP1.dir/TP1/ex2.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TP1.dir\TP1\ex2.cpp.obj -c C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame\TP1\ex2.cpp
 
 CMakeFiles/TP1.dir/TP1/ex2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP1.dir/TP1/ex2.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\DA_TP_Classes\TP1\ex2.cpp > CMakeFiles\TP1.dir\TP1\ex2.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame\TP1\ex2.cpp > CMakeFiles\TP1.dir\TP1\ex2.cpp.i
 
 CMakeFiles/TP1.dir/TP1/ex2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP1.dir/TP1/ex2.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\DA_TP_Classes\TP1\ex2.cpp -o CMakeFiles\TP1.dir\TP1\ex2.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame\TP1\ex2.cpp -o CMakeFiles\TP1.dir\TP1\ex2.cpp.s
 
 CMakeFiles/TP1.dir/TP1/ex3.cpp.obj: CMakeFiles/TP1.dir/flags.make
 CMakeFiles/TP1.dir/TP1/ex3.cpp.obj: CMakeFiles/TP1.dir/includes_CXX.rsp
 CMakeFiles/TP1.dir/TP1/ex3.cpp.obj: ../TP1/ex3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\DA_TP_Classes\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TP1.dir/TP1/ex3.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TP1.dir\TP1\ex3.cpp.obj -c C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\DA_TP_Classes\TP1\ex3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TP1.dir/TP1/ex3.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TP1.dir\TP1\ex3.cpp.obj -c C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame\TP1\ex3.cpp
 
 CMakeFiles/TP1.dir/TP1/ex3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP1.dir/TP1/ex3.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\DA_TP_Classes\TP1\ex3.cpp > CMakeFiles\TP1.dir\TP1\ex3.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame\TP1\ex3.cpp > CMakeFiles\TP1.dir\TP1\ex3.cpp.i
 
 CMakeFiles/TP1.dir/TP1/ex3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP1.dir/TP1/ex3.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\DA_TP_Classes\TP1\ex3.cpp -o CMakeFiles\TP1.dir\TP1\ex3.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame\TP1\ex3.cpp -o CMakeFiles\TP1.dir\TP1\ex3.cpp.s
 
 CMakeFiles/TP1.dir/TP1/ex4.cpp.obj: CMakeFiles/TP1.dir/flags.make
 CMakeFiles/TP1.dir/TP1/ex4.cpp.obj: CMakeFiles/TP1.dir/includes_CXX.rsp
 CMakeFiles/TP1.dir/TP1/ex4.cpp.obj: ../TP1/ex4.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\DA_TP_Classes\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TP1.dir/TP1/ex4.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TP1.dir\TP1\ex4.cpp.obj -c C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\DA_TP_Classes\TP1\ex4.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TP1.dir/TP1/ex4.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TP1.dir\TP1\ex4.cpp.obj -c C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame\TP1\ex4.cpp
 
 CMakeFiles/TP1.dir/TP1/ex4.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP1.dir/TP1/ex4.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\DA_TP_Classes\TP1\ex4.cpp > CMakeFiles\TP1.dir\TP1\ex4.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame\TP1\ex4.cpp > CMakeFiles\TP1.dir\TP1\ex4.cpp.i
 
 CMakeFiles/TP1.dir/TP1/ex4.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP1.dir/TP1/ex4.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\DA_TP_Classes\TP1\ex4.cpp -o CMakeFiles\TP1.dir\TP1\ex4.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame\TP1\ex4.cpp -o CMakeFiles\TP1.dir\TP1\ex4.cpp.s
 
 CMakeFiles/TP1.dir/TP1/ex5.cpp.obj: CMakeFiles/TP1.dir/flags.make
 CMakeFiles/TP1.dir/TP1/ex5.cpp.obj: CMakeFiles/TP1.dir/includes_CXX.rsp
 CMakeFiles/TP1.dir/TP1/ex5.cpp.obj: ../TP1/ex5.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\DA_TP_Classes\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TP1.dir/TP1/ex5.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TP1.dir\TP1\ex5.cpp.obj -c C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\DA_TP_Classes\TP1\ex5.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TP1.dir/TP1/ex5.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TP1.dir\TP1\ex5.cpp.obj -c C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame\TP1\ex5.cpp
 
 CMakeFiles/TP1.dir/TP1/ex5.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP1.dir/TP1/ex5.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\DA_TP_Classes\TP1\ex5.cpp > CMakeFiles\TP1.dir\TP1\ex5.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame\TP1\ex5.cpp > CMakeFiles\TP1.dir\TP1\ex5.cpp.i
 
 CMakeFiles/TP1.dir/TP1/ex5.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP1.dir/TP1/ex5.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\DA_TP_Classes\TP1\ex5.cpp -o CMakeFiles\TP1.dir\TP1\ex5.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame\TP1\ex5.cpp -o CMakeFiles\TP1.dir\TP1\ex5.cpp.s
 
 CMakeFiles/TP1.dir/TP1/ex6.cpp.obj: CMakeFiles/TP1.dir/flags.make
 CMakeFiles/TP1.dir/TP1/ex6.cpp.obj: CMakeFiles/TP1.dir/includes_CXX.rsp
 CMakeFiles/TP1.dir/TP1/ex6.cpp.obj: ../TP1/ex6.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\DA_TP_Classes\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TP1.dir/TP1/ex6.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TP1.dir\TP1\ex6.cpp.obj -c C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\DA_TP_Classes\TP1\ex6.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TP1.dir/TP1/ex6.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TP1.dir\TP1\ex6.cpp.obj -c C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame\TP1\ex6.cpp
 
 CMakeFiles/TP1.dir/TP1/ex6.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP1.dir/TP1/ex6.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\DA_TP_Classes\TP1\ex6.cpp > CMakeFiles\TP1.dir\TP1\ex6.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame\TP1\ex6.cpp > CMakeFiles\TP1.dir\TP1\ex6.cpp.i
 
 CMakeFiles/TP1.dir/TP1/ex6.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP1.dir/TP1/ex6.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\DA_TP_Classes\TP1\ex6.cpp -o CMakeFiles\TP1.dir\TP1\ex6.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame\TP1\ex6.cpp -o CMakeFiles\TP1.dir\TP1\ex6.cpp.s
 
 CMakeFiles/TP1.dir/TP1/ex7.cpp.obj: CMakeFiles/TP1.dir/flags.make
 CMakeFiles/TP1.dir/TP1/ex7.cpp.obj: CMakeFiles/TP1.dir/includes_CXX.rsp
 CMakeFiles/TP1.dir/TP1/ex7.cpp.obj: ../TP1/ex7.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\DA_TP_Classes\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/TP1.dir/TP1/ex7.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TP1.dir\TP1\ex7.cpp.obj -c C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\DA_TP_Classes\TP1\ex7.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/TP1.dir/TP1/ex7.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TP1.dir\TP1\ex7.cpp.obj -c C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame\TP1\ex7.cpp
 
 CMakeFiles/TP1.dir/TP1/ex7.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP1.dir/TP1/ex7.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\DA_TP_Classes\TP1\ex7.cpp > CMakeFiles\TP1.dir\TP1\ex7.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame\TP1\ex7.cpp > CMakeFiles\TP1.dir\TP1\ex7.cpp.i
 
 CMakeFiles/TP1.dir/TP1/ex7.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP1.dir/TP1/ex7.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\DA_TP_Classes\TP1\ex7.cpp -o CMakeFiles\TP1.dir\TP1\ex7.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame\TP1\ex7.cpp -o CMakeFiles\TP1.dir\TP1\ex7.cpp.s
 
 # Object files for target TP1
 TP1_OBJECTS = \
@@ -207,7 +207,7 @@ TP1.exe: lib/libgtestd.a
 TP1.exe: CMakeFiles/TP1.dir/linklibs.rsp
 TP1.exe: CMakeFiles/TP1.dir/objects1.rsp
 TP1.exe: CMakeFiles/TP1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\DA_TP_Classes\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable TP1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable TP1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\TP1.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -219,6 +219,6 @@ CMakeFiles/TP1.dir/clean:
 .PHONY : CMakeFiles/TP1.dir/clean
 
 CMakeFiles/TP1.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\DA_TP_Classes C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\DA_TP_Classes C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\DA_TP_Classes\cmake-build-debug C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\DA_TP_Classes\cmake-build-debug C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\DA_TP_Classes\cmake-build-debug\CMakeFiles\TP1.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame\cmake-build-debug C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame\cmake-build-debug C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame\cmake-build-debug\CMakeFiles\TP1.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/TP1.dir/depend
 

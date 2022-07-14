@@ -3,17 +3,17 @@
 cmake_policy(SET CMP0009 NEW)
 
 # TP1_FILES at CMakeLists.txt:9 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/DA_TP_Classes/TP1/*.cpp")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/TP1/*.cpp")
 set(OLD_GLOB
-  "C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/DA_TP_Classes/TP1/ex1.cpp"
-  "C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/DA_TP_Classes/TP1/ex2.cpp"
-  "C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/DA_TP_Classes/TP1/ex3.cpp"
-  "C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/DA_TP_Classes/TP1/ex4.cpp"
-  "C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/DA_TP_Classes/TP1/ex5.cpp"
-  "C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/DA_TP_Classes/TP1/ex6.cpp"
-  "C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/DA_TP_Classes/TP1/ex7.cpp"
+  "C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/TP1/ex1.cpp"
+  "C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/TP1/ex2.cpp"
+  "C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/TP1/ex3.cpp"
+  "C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/TP1/ex4.cpp"
+  "C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/TP1/ex5.cpp"
+  "C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/TP1/ex6.cpp"
+  "C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/TP1/ex7.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/DA_TP_Classes/cmake-build-debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/cmake-build-debug/CMakeFiles/cmake.verify_globs")
 endif()

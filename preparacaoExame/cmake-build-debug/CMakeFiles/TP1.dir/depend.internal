@@ -22,8 +22,8 @@ CMakeFiles/TP1.dir/TP1/ex1.cpp.obj
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-port.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
- C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/DA_TP_Classes/TP1/ex1.cpp
- C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/DA_TP_Classes/TP1/exercises.h
+ C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/TP1/ex1.cpp
+ C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/TP1/exercises.h
 CMakeFiles/TP1.dir/TP1/ex2.cpp.obj
  ../lib/googletest-master/googletest/include/gtest/gtest-death-test.h
  ../lib/googletest-master/googletest/include/gtest/gtest-matchers.h
@@ -45,8 +45,8 @@ CMakeFiles/TP1.dir/TP1/ex2.cpp.obj
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-port.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
- C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/DA_TP_Classes/TP1/ex2.cpp
- C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/DA_TP_Classes/TP1/exercises.h
+ C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/TP1/ex2.cpp
+ C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/TP1/exercises.h
 CMakeFiles/TP1.dir/TP1/ex3.cpp.obj
  ../lib/googletest-master/googletest/include/gtest/gtest-death-test.h
  ../lib/googletest-master/googletest/include/gtest/gtest-matchers.h
@@ -68,8 +68,8 @@ CMakeFiles/TP1.dir/TP1/ex3.cpp.obj
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-port.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
- C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/DA_TP_Classes/TP1/ex3.cpp
- C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/DA_TP_Classes/TP1/exercises.h
+ C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/TP1/ex3.cpp
+ C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/TP1/exercises.h
 CMakeFiles/TP1.dir/TP1/ex4.cpp.obj
  ../lib/googletest-master/googletest/include/gtest/gtest-death-test.h
  ../lib/googletest-master/googletest/include/gtest/gtest-matchers.h
@@ -91,8 +91,8 @@ CMakeFiles/TP1.dir/TP1/ex4.cpp.obj
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-port.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
- C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/DA_TP_Classes/TP1/ex4.cpp
- C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/DA_TP_Classes/TP1/exercises.h
+ C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/TP1/ex4.cpp
+ C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/TP1/exercises.h
 CMakeFiles/TP1.dir/TP1/ex5.cpp.obj
  ../lib/googletest-master/googletest/include/gtest/gtest-death-test.h
  ../lib/googletest-master/googletest/include/gtest/gtest-matchers.h
@@ -114,8 +114,8 @@ CMakeFiles/TP1.dir/TP1/ex5.cpp.obj
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-port.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
- C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/DA_TP_Classes/TP1/ex5.cpp
- C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/DA_TP_Classes/TP1/exercises.h
+ C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/TP1/ex5.cpp
+ C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/TP1/exercises.h
 CMakeFiles/TP1.dir/TP1/ex6.cpp.obj
  ../lib/googletest-master/googlemock/include/gmock/gmock-actions.h
  ../lib/googletest-master/googlemock/include/gmock/gmock-cardinalities.h
@@ -152,8 +152,8 @@ CMakeFiles/TP1.dir/TP1/ex6.cpp.obj
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-port.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
- C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/DA_TP_Classes/TP1/ex6.cpp
- C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/DA_TP_Classes/TP1/exercises.h
+ C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/TP1/ex6.cpp
+ C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/TP1/exercises.h
 CMakeFiles/TP1.dir/TP1/ex7.cpp.obj
  ../lib/googletest-master/googlemock/include/gmock/gmock-actions.h
  ../lib/googletest-master/googlemock/include/gmock/gmock-cardinalities.h
@@ -190,8 +190,8 @@ CMakeFiles/TP1.dir/TP1/ex7.cpp.obj
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-port.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
- C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/DA_TP_Classes/TP1/ex7.cpp
- C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/DA_TP_Classes/TP1/exercises.h
+ C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/TP1/ex7.cpp
+ C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/TP1/exercises.h
 CMakeFiles/TP1.dir/main.cpp.obj
  ../lib/googletest-master/googletest/include/gtest/gtest-death-test.h
  ../lib/googletest-master/googletest/include/gtest/gtest-matchers.h
@@ -213,4 +213,4 @@ CMakeFiles/TP1.dir/main.cpp.obj
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-port.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
- C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/DA_TP_Classes/main.cpp
+ C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/main.cpp
