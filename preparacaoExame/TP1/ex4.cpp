@@ -1,10 +1,30 @@
 // By: Gonçalo Leão
 
 #include "exercises.h"
+#include <stack>
 
 bool changeMakingGreedy(unsigned int C[], unsigned int Stock[], unsigned int n, unsigned int T, unsigned int usedCoins[]) {
-    //TODO...
+    std::stack<int> saint;
+    for(int i=0; i<n; i++){
+        usedCoins[i]=0;
+        for(int k=0; k<Stock[i]; k++){
+            saint.push(i);
+        }
+    }
 
+    while(!saint.empty()){
+        int index = saint.top();
+        saint.pop();
+        if(T>=C[index]){
+            T-=C[index];
+            Stock[index]--;
+            usedCoins[index]++;
+        }
+        if(T==0)return true;
+    }
+
+
+    if(T==0)return true;
     return false;
 }
 
