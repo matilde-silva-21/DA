@@ -5,28 +5,12 @@
 #include <iterator>
 #include <list>
 
-//fin = original, jake = copy
-void copyArray(unsigned int fin[], unsigned int jake[], unsigned int n){
-    for(auto i=0; i<n; i++){
-        auto val = fin[i];
-        jake[i]=val;
-    }
-
-}
-
 void resetArray(unsigned int jake[], unsigned int n){
     for(auto i=0; i<n; i++){
         jake[i]=0;
     }
 }
 
-int getNumberOfCoins(unsigned int jake[], unsigned int n){
-    int count=0;
-    for(auto i=0; i<n; i++){
-        if(jake[i]!=0) count++;
-    }
-    return count;
-}
 
 bool changeMakingBF(unsigned int C[], unsigned int Stock[], unsigned int n, unsigned int T, unsigned int usedCoins[]) {
 
