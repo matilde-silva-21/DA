@@ -53,10 +53,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\exame
+CMAKE_SOURCE_DIR = C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame\exame
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\exame\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame\exame\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -80,14 +80,14 @@ clean: CMakeFiles/exame.dir/clean
 CMakeFiles/exame.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\exame.dir\build.make CMakeFiles/exame.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\exame.dir\build.make CMakeFiles/exame.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\exame\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target exame"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame\exame\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target exame"
 .PHONY : CMakeFiles/exame.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/exame.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\exame\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame\exame\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/exame.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\exame\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\clfma\Desktop\Faculdade\Y2S2\DA\preparacaoExame\exame\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/exame.dir/rule
 
 # Convenience name for target.

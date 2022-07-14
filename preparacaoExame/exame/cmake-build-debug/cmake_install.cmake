@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/exame
+# Install script for directory: C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/exame
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/exame/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/clfma/Desktop/Faculdade/Y2S2/DA/preparacaoExame/exame/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
