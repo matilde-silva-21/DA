@@ -29,11 +29,6 @@ int getNumberOfCoins(unsigned int jake[], unsigned int n){
 }
 
 bool changeMakingBF(unsigned int C[], unsigned int Stock[], unsigned int n, unsigned int T, unsigned int usedCoins[]) {
-    unsigned int st[n], uc[n];
-    copyArray(Stock, st, n);
-    copyArray(usedCoins, uc, n);
-
-    unsigned int curBestAnswer[n], curBestSize = UINT16_MAX;
 
     if(T==0){
         return true;
@@ -47,13 +42,10 @@ bool changeMakingBF(unsigned int C[], unsigned int Stock[], unsigned int n, unsi
             if(changeMakingBF(C,Stock,n,T-C[i], usedCoins)){
                 return true;
             }
-            copyArray(st, Stock, n);
-            copyArray(uc, usedCoins, n);
         }
     }
 
-    if(curBestSize!=UINT16_MAX) { copyArray(curBestAnswer,usedCoins,n); return true;}
-    else return false;
+    return false;
 }
 
 /// TESTS ///
